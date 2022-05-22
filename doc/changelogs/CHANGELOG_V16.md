@@ -49,6 +49,7 @@
 ### Commits
 
 * \[[`0fffff`](https://github.com/nodejs/node/commit/28650e)] - **git**: add gitattributes and gitignore
+* \[[`72bb13e`](https://github.com/johnnkp/nodejs-GCC12/commit/72bb13e548ac7f724b1a66d9fc6dc0c713e6d926)] - **clang-format**: Dependabot: delete package-lock.json
 
 <a id="16.14.1"></a>
 
