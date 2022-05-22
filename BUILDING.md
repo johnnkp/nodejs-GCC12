@@ -264,7 +264,9 @@ More Developer Tools...`. This step will install `clang`, `clang++`, and
 
 #### Building Node.js
 
-AOCC Clang: <https://www.geek-share.com/detail/2615539940.html>
+AOCC Clang:
+1. <https://www.geek-share.com/detail/2615539940.html>
+2. <https://www.kernel.org/doc/html/latest/kbuild/llvm.html>
 
 If the path to your build directory contains a space, the build will likely
 fail.
