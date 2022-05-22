@@ -243,6 +243,7 @@ Installation via Linux package manager can be achieved with:
 
 * Ubuntu, Debian: `sudo apt-get install python3 g++ make python3-pip`
 * Fedora: `sudo dnf install python3 gcc-c++ make python3-pip`
+* AMD Optimizing C/C++ and Fortran Compilers (AOCC): [AOCC 3.2](https://developer.amd.com/amd-aocc/ "Supported processor families are AMD EPYC™, AMD Ryzen™, and AMD Ryzen™ Threadripper™ processors.")
 * CentOS and RHEL: `sudo yum install python3 gcc-c++ make python3-pip`
 * OpenSUSE: `sudo zypper install python3 gcc-c++ make python3-pip`
 * Arch Linux, Manjaro: `sudo pacman -S python gcc make python-pip`
@@ -262,6 +263,8 @@ More Developer Tools...`. This step will install `clang`, `clang++`, and
 `make`.
 
 #### Building Node.js
+
+AOCC Clang: <https://www.geek-share.com/detail/2615539940.html>
 
 If the path to your build directory contains a space, the build will likely
 fail.
