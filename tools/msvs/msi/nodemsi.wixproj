@@ -73,6 +73,7 @@
     <EmbeddedResource Include="i18n\zh-cn.wxl" />
     -->
     <EmbeddedResource Include="i18n\en-us.wxl" />
+    <EmbeddedResource Include="i18n\zh-tw.wxl" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="custom_actions.vcxproj">
