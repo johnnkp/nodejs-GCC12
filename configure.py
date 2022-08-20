@@ -1487,7 +1487,7 @@ def configure_openssl(o):
       ('nasm_version' in variables and StrictVersion(variables['nasm_version']) >= StrictVersion('2.10'))
 
     if is_x86 and not openssl110_asm_supported:
-      error('''Did not find a new enough assembler, install one or build with
+      warn('''Did not find a new enough assembler, install one or build with
        --openssl-no-asm.
        Please refer to BUILDING.md''')
 
